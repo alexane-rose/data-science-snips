@@ -16,7 +16,7 @@ df = pd.read_csv(input_dir)
 print(df.head())
 print(df.describe())
 # Create scatter chart
-fig = px.scatter(df, x='timestamp', y = 'price', color = 'amount')
+fig = px.scatter(df, x="timestamp", y="price", color="amount")
 
 # Write chart
 # Check if the directory exists

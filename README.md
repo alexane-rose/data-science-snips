@@ -27,4 +27,4 @@ In this repository you will find functions that are handy and regularly used whe
 - encoding_data : methods to encode categorical values
 - pivot_unpivot_melt : methods to pivot data and melt data. Pivot is useful when taking raw data and wanting to make it more reader-friendly. Melt is useful in the reverse scenario, when processing a reader-friendly data-set and making it machine-friendly.
 - plot_using_plotly : Plotly is great to create interractive visuals. They can be saved to pictures or to HTML
-- scaling_data : Scaling data is a necessary steps when working with Neuronal networks, it helps the machine converge towards a result!
+- scaling_data : Scaling data is a necessary step when working with Neuronal networks, it helps the machine converge towards a result!

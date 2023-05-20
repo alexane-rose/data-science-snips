@@ -24,7 +24,7 @@ print(df.head())
 print("-----------------------------------")
 
 # Scale target columns
-scaling_columns = ['price','amount']
+scaling_columns = ["price", "amount"]
 scaler = MinMaxScaler()
 df_scaled = df.copy()
 df_scaled[scaling_columns] = scaler.fit_transform(df_scaled[scaling_columns])
